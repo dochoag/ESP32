@@ -95,7 +95,7 @@ connect ESP32 to micro usb to computer
 make flash
 ```
 
-###Serial Monitor 
+### Serial Monitor 
 ```
 make monitor
 ```
