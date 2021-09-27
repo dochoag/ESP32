@@ -8,7 +8,7 @@ Esp32 with ESP-IDF SDK on VScode
 sudo apt-get install git wget flex bison gperf python3 python3-pip python3-setuptools cmake ninja-build ccache libffi-dev libssl-dev dfu-util libusb-1.0-0
 ```
 
-###Get ESP-IDF
+### Get ESP-IDF
 
 https://github.com/espressif/esp-idf
 
@@ -17,12 +17,12 @@ mkdir -p ~/esp
 cd ~/esp
 git clone --recursive https://github.com/espressif/esp-idf.git
 ```
-###Set up tools
+### Set up tools
 ```
 cd ~/esp/esp-idf
 ./install.sh esp32
 ```
-###Set up the environment variables
+### Set up the environment variables
 
  ```
  getdit ~/.bashrc
@@ -35,7 +35,7 @@ alias get_idf='. $HOME/esp/esp-idf/export.sh'
 
 ## Example Hello world
 
-###Start a proyect
+### Start a proyect
 ```
 cd ~/esp
 cp -r $IDF_PATH/examples/get-started/hello_world .
